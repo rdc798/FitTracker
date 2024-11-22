@@ -1,0 +1,12 @@
+.workoutLog {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #202125;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.workoutLog p, h2, h3 {
+    color: white;
+}

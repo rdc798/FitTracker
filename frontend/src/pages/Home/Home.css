@@ -1,0 +1,194 @@
+.home {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.welcomeText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.welcomeText h1 {
+    font-size: 3.25vw;
+    color: white;
+}
+
+.welcomeText p {
+    margin-top: 10px;
+    text-wrap: wrap;
+    font-size: 1.25rem;
+    color: gray;
+    width: 40vw;
+    padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .welcomeText p {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .welcomeText h1 {
+        font-size: 2.5rem;
+    }
+
+    .welcomeText p {
+        font-size: 1rem;
+        max-width: 80vw;
+    }
+
+    .welcomeSignup input {
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    .welcomeButtons button {
+        width: 150px !important;
+    }
+    
+    .imageShowcase img {
+        width: 85vw !important;
+    }
+
+    .featureShowcase {
+        padding: 0 2rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .welcomeSignup input {
+        margin-top: 30px;
+        width: 300px !important;
+    }
+
+    .welcomeButtons button {
+        width: 120px !important;
+        overflow: hidden;
+    }
+
+    .featureShowcase {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        max-width: 50vw;
+    }
+
+    .feature {
+        max-width: 400px !important;
+        height: 100px;
+    }
+}
+
+.welcomeSignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcomeSignup input {
+    margin-top: 30px;
+    width: 400px;
+    border: 2px solid darkgray;
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: rgb(19, 19, 19);
+}
+
+.welcomeButtons button {
+    display: inline-block;
+    margin: 20px 30px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid darkgray;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.imageShowcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+}
+.imageShowcase img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 100vh;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.featureShowcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+    max-width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.feature {
+    height: 90vh;
+    width: 45vw;
+    max-width: 500px;
+    border: 1px solid;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    box-shadow: rgb(29, 29, 29) 2px 2px 2px 2px;
+    background: linear-gradient(to top, rgb(95, 94, 94) 0%, rgb(122, 120, 120) 100%);
+}
+
+.feature h1 {
+    color: black;
+}
+
+.feature p {
+    color: rgb(168, 168, 168);
+}
+
+.feature:hover {
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.featureContainer {
+    background-color: #f5f5f5;
+}
+
+.featureText {
+    align-items: center;
+    padding-top: 70px;
+    margin-left: 0;
+}
+
+.featureText h1 {
+    font-size: 3.5vw;
+    color: rgb(0, 0, 0);
+}
+
+.featureText p {
+    margin-top: 10px;
+    text-wrap: wrap;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    width: 45vw;
+}
