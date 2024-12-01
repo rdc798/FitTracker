@@ -7,7 +7,7 @@ function Home() {
       <div className="wrapperDark">
         <div className="home">
           <div className="welcomeText">
-            <h1>Focus on the work.</h1>
+            <h1>Focus on progress.</h1>
             <h1>Automate your workout.</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem

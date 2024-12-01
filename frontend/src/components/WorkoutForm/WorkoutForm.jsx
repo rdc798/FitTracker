@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./WorkoutForm.css";
-import WorkoutLog from "../WorkoutLog/WorkoutLog.jsx";
+import WorkoutLog from "../../pages/WorkoutLog/WorkoutLog.jsx";
 
 function WorkoutForm() {
   const [exercise, setExercise] = useState("");
