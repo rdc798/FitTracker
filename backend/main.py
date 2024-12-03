@@ -27,6 +27,22 @@ def create_workout():
 
     return jsonify({"message": "Workout created"})
 
+app.route('./workoutLog', methods=['DELETE'])
+def delete_workout(id):
+    workout = Workout.query.get(id)
+    if not workout:
+        return jsonify({"message": "Workout not found"}), 404
+    
+    try: 
+        db.session.delete(workout)
+        db.session.commit()
+    except Exception as e:
+        return jsonify({"message": "Error deleting workout"}), 400
+    
+    return jsonify({"message": "Workout {id} successfully deleted"})
+
+    
+
 
 if __name__ == "__main__":
     with app.app_context():
